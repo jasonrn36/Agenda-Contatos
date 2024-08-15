@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:#464646;
+}
+
+body {
+    background-color: #e7e7e7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*########################################*/
+/* Área de container*/
+.container {
+    background-color: rgb(236, 236, 236);
+    /*display: block; /*
+  /*  display: flex;
+    flex-wrap: wrap; O flex-wrap com: wrap serve para colocar um conteudo abaixo do outro*/
+    max-width: 500px;
+    margin: auto; /* Deixa o bloco no centro da tela*/
+}
+
+.container h1 {
+    padding: 8px; /* Aqui acertamos o espaçamento lateral de todos os lados em 8px
+    deixando a lateral esquerda alinhada em 8px ;-)*/
+}
+
+/*########################################*/
+/* Área de formulário*/
+#form-contatos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    width: 100%;
+    padding: 8px;
+    justify-content: space-between;
+}
+/*########################################*/
+/* Área de botão adicionar*/
+#form-contatos > #btn-adicionar {
+    margin-left: auto;
+    margin-right: 0%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(237, 226, 226);
+    background-color: rgb(45, 157, 45);
+    border: none;
+    padding: 5px;
+}
+
+/*########################################*/
+/* Área do input do formulario*/
+#form-contatos input {
+    width: 100%;
+    font-size: 1.0rem;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #a8a8a8;
+    padding: 10px;
+    margin-bottom: 8px;
+    outline-color: rgb(45, 157, 45);
+
+}
+
+/*########################################*/
+/* Área de tabela*/
+
+table {
+    text-align: center;
+    width: 640px;
+    width: 100%;
+    padding: 8px;
+}
+
+table th {
+    border-bottom: 1px solid #767676;
+    padding:  10px;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #f0f0f0;
+    padding: 8px;
+    align-items: center;
+    font-size: 1.0rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
